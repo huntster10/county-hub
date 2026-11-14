@@ -24,7 +24,7 @@ if [ ! -f ".env.local" ]; then
   echo
   echo " [!] Created your settings file: .env.local"
   echo "     It just opened in TextEdit. Fill in the Supabase values"
-  echo "     (same ones you typed into Vercel), SAVE it, close TextEdit,"
+  echo "     - the same ones you typed into Vercel. SAVE it, close TextEdit,"
   echo "     then double-click this file again."
   echo
   open -e ".env.local"
